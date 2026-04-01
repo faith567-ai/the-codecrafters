@@ -1,24 +1,17 @@
 package main
 
 import (
-	"fmt"
+	"regexp"
 	"strings"
 )
 
-func fixPunctuations(text string) string {
-	text = strings.ReplaceAll(text, " .", ".")
-	text = strings.ReplaceAll(text, " ?", "?")
-	text = strings.ReplaceAll(text, ". ..", "... ")
-	text = strings.ReplaceAll(text, " ;", ";")
-	text = strings.ReplaceAll(text, " :", ":")
-	text = strings.ReplaceAll(text, " ,", ", ")
-	text = strings.ReplaceAll(text, " !", "!")
-	return text
-}
+func fixPunctuation(text string) string {
 
-func main() {
-	fmt.Println("I was sitting over there ,and then BAMM !!")
-	fmt.Println(fixPunctuations("omo director x .... my brain is not braining anymore!!"))
-	fmt.Println(fixPunctuations("bench markers is the best ... squad ever no doubt"))
-	fmt.Println(fixPunctuations("I was sitting over there ,and then BAMM !!"))
+	p1 := regexp.MustCompile(`\s+([?.,:;!]+)`)
+	p2 := regexp.MustCompile(`([?.,:;!]+)\s+`)
+	
+	text = p1.ReplaceAllString(text, "$1 ")
+	text = p2.ReplaceAllString(text, "$1 ")
+	result := strings.Fields(text)
+	return strings.Join(result, " ")
 }
