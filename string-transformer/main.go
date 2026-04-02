@@ -1,7 +1,7 @@
 // CodeCrafters — Operation Gopher Protocol
 // Module: String Transformer
-// Author: [Your Name]
-// Squad:  [Your Squad Name]
+// Author: [Faith Ejembi]
+// Squad:  [Bench makers]
 
 package main
 
@@ -14,7 +14,7 @@ import (
 func main() {
 	fmt.Println(cap("wicked mubarak"))
 	fmt.Println(title("the fall of the western power grid"))
-	fmt.Println(snake("Operation Gopher Protocol"  ))
+	fmt.Println(snake("Operation Gopher Protocol"))
 }
 
 func upper(s string) string {
@@ -84,5 +84,5 @@ func snake(s string) string {
 			ehi.WriteRune(char)
 		}
 	}
-return ehi.String()
+	return ehi.String()
 }
