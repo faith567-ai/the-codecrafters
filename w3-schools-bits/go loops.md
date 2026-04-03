@@ -1,3 +1,4 @@
+
 Loop is used to repeat a block of codes multiple times, every execution of a loop is called iteration.
 we only have the standard "for" loop and this "for" loop can take up to three statements
 - statement 1: Sets the starting value of the loop counter.

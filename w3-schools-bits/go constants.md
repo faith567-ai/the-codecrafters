@@ -1,4 +1,5 @@
 ## constants
+
 constant creates a variable that cannot be changed
 constant names are usually written in uppercase letters (in other to identify easily)
 types of constants include: typed,and untyped constant

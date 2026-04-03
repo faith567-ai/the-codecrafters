@@ -1,4 +1,5 @@
 ## Go Maps
+
 - Maps are like superboxes that hold stuff in pairs — a key and a value.
 
 - Every thing in a map has a key (like a name) and a value (like a number or info).

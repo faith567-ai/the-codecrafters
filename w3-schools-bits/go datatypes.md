@@ -1,4 +1,5 @@
 ## Data types
+
 - A data type tells what kind of value a variable can store.
 
 - Go is statically typed, which means once you choose a type for a variable, it cannot change.

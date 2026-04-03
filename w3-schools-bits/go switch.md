@@ -1,4 +1,5 @@
 ## Switch Statement
+
 switch is used to choose one block of code to run, it checks a value and matches it with cases only the matching case runs (no need for break).
 
 * How it works:

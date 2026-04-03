@@ -1,5 +1,6 @@
 
 ## Go Slices
+
 Slices are like arrays, but more flexible they can grow or shrink in size also store many values of the same type.
 
 - Create a Slice

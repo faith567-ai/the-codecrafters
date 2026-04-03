@@ -1,4 +1,5 @@
 ## Functions
+
 - A function is a block of code that you can use many times, function does not run by itself when the program starts it only runs when you call it.
 
 - How to create a function:

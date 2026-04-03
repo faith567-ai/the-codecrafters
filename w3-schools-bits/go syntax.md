@@ -1,4 +1,5 @@
 ## Go Syntax
+
 * Go programs have some main parts:
 - Package: This shows where the program belongs.
 

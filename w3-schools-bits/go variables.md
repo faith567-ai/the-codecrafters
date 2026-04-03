@@ -1,4 +1,5 @@
 ## in GO there are diffrent types of variables e.g
+
 int ; there are whole numbers without decimals 
 float32 ; there are numbers with decimals
 bool ; options with only true/false
