@@ -13,13 +13,10 @@ The break statement is used to stop the loop.
 -- The continue and break statements are ususally used with conditions --
 
 ## Nested Loops
-
-- It is possible to place a loop inside another loop.
-
-- Here, the "inner loop" will be executed one time for each iteration of the "outer loop":
-
-## The Range Keyword
-
-The range keyword is used to more easily iterate through the elements of an array, slice or map. It returns both the index and the value.
-
-
+- You can put one loop inside another loop.
+- The inner loop runs every time the outer loop runs.
+- The range Keyword
+- The range keyword is used to go through items in an array, slice, or map.
+* It gives you two things:
+- The index (position)
+- The value (item)

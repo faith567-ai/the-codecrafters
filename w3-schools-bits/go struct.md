@@ -6,6 +6,3 @@ While arrays are used to store multiple values of the same data type into a sing
 - To declare a structure in Go, use the type and struct keywords
 
 - To declare a structure in Go, use the type and struct keywords
-
-
-

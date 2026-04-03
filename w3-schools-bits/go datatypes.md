@@ -1,13 +1,17 @@
 ## Data types
-- Data type is an important concept in programming. Data type specifies the size and type of variable values.
-- Go is statically typed, meaning that once a variable type is defined, it can only store data of that type.
-- Go has three basic data types:
+- A data type tells what kind of value a variable can store.
 
-   - bool: represents a boolean value and is either true or false
-   - Numeric: represents integer types, floating point values, and complex types
-   - string: represents a string value
+- Go is statically typed, which means once you choose a type for a variable, it cannot change.
 
-- A boolean data type is declared with the bool keyword and can only take the values true or false.
-- Integer data types are used to store a whole number without decimals, like 35, -50, or 1345000.
-- The float data types are used to store positive and negative numbers with a decimal point, like 35.3, -2.34, or 3597.34987.
-- The string data type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
+- Go has three main data types:
+* bool: stores true or false
+* numeric: stores numbers (integers, decimals, complex numbers)
+* string: stores text
+
+- A bool can only be true or false.
+
+- Integers are whole numbers, like 35, -50, or 1345000.
+
+- Floats are numbers with decimals, like 35.3, -2.34, or 3597.34987.
+
+- A string is text, and it must be inside double quotes, like "Hello".

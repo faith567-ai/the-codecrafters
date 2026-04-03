@@ -1,26 +1,12 @@
+## Functions
+- A function is a block of code that you can use many times, function does not run by itself when the program starts it only runs when you call it.
 
+- How to create a function:
+- Use the func keyword
+- Give the function a name, followed by () Put the code inside this(curly braces {})
 
-- A function is a block of statements that can be used repeatedly in a program.
+- Parameters and Arguments
+You can pass information into a function this is called a parameter, Parameters act like variables inside the function, you write parameters inside the () after the function name also you can have many parameters, separated by commas.
 
-- A function will not execute automatically when a page loads.
-
-- A function will be executed by a call to the function.
-Create a Function
-
-## To create (often referred to as declare) a function, do the following:
-
-  -  Use the func keyword.
-  - Specify a name for the function, followed by parentheses ().
-  - Finally, add code that defines what the function should do, inside curly braces {}.
-
-
-Parameters and Arguments
-
-Information can be passed to functions as a parameter. Parameters act as variables inside the function.
-
-Parameters and their types are specified after the function name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma:
-
-Return Values
-
-If you want the function to return a value, you need to define the data type of the return value (such as int, string, etc), and also use the return keyword inside the function:
-
+- Return Values
+A function can send a value back, you must write the type of value it will return (like int or string) Use the return keyword to send the value back.
